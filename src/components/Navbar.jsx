@@ -5,6 +5,7 @@ const navItems = [
     { name: 'About', href: '#about' },
     { name: 'Potential', href: '#potential' },
     { name: 'Story Map', href: '#story-map' },
+    { name: 'local weather', href: '#local-weather'},
     { name: 'Contact', href: '#contact' },
 ];
 
