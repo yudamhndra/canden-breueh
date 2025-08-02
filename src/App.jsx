@@ -2,7 +2,6 @@ import './index.css'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Introduction from "./components/Introduction.jsx";
-import VideoPlayer from "./components/VideoPlayer.jsx";
 import Footer from "./components/Footer.jsx";
 import Cards from "./components/Cards.jsx";
 import SliderPanel from "./components/SliderPanel.jsx";
