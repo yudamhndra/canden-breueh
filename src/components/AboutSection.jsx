@@ -303,7 +303,7 @@ const AboutSection = () => {
                     <div className="relative order-2 lg:order-1">
                         <div className="relative h-[500px] sm:h-[580px] lg:h-[600px] xl:h-[650px] rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src="src/assets/williams-torrent.png"
+                                src="assets/williams-torrent.png"
                                 alt="Breueh Island Overview"
                                 className="w-full h-full object-cover"
                             />

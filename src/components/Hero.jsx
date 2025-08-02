@@ -33,14 +33,14 @@ const Hero = () => {
                     }}
                 >
                     <img 
-                        src="src/assets/ilalang-4.png"
+                        src="assets/ilalang-4.png"
                         alt="Breueh Island Aerial View"
                         className="w-full h-full object-cover object-center"
                     />
                 </div>
                 
                 {/* Dynamic Gradient Overlays */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/30"></div>
+                {/* <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-black/30"></div> */}
                 <div className="absolute inset-0 bg-gradient-to-r from-teal-900/20 via-transparent to-orange-900/20"></div>
                 
                 {/* Animated Particles */}
