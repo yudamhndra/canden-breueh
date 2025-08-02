@@ -4,7 +4,7 @@ const SliderPanel = () => {
     const cards = [
         {
             id: 1,
-            src: "assets/slider/meulingge.jpg",
+            src: "/canden-breueh/assets/slider/meulingge.jpg",
             alt: "Beautiful Beach View",
             title: "Crystal Clear Waters",
             location: "Gampong Meulingge",
@@ -13,7 +13,7 @@ const SliderPanel = () => {
         },
         {
             id: 2,
-            src: "assets/ilalang.jpg", 
+            src: "/canden-breueh/assets/ilalang.jpg", 
             alt: "Tropical Forest",
             title: "Lush Green Paradise",
             location: "Hutan Tropis Breueh",
@@ -22,7 +22,7 @@ const SliderPanel = () => {
         },
         {
             id: 3,
-            src: "assets/slider/ujung-geunting.jpg",
+            src: "/canden-breueh/assets/slider/ujung-geunting.jpg",
             alt: "Sunset at Breueh",
             title: "Golden Hour Magic",
             location: "Ujung Geunting",
@@ -31,7 +31,7 @@ const SliderPanel = () => {
         },
         {
             id: 4,
-            src: "assets/ilalang.jpg",
+            src: "/canden-breueh/assets/ilalang.jpg",
             alt: "Coral Reef",
             title: "Underwater Wonder",
             location: "Terumbu Karang Breueh",
@@ -40,7 +40,7 @@ const SliderPanel = () => {
         },
         {
             id: 5,
-            src: "assets/slider/Teupin.jpg",
+            src: "/canden-breueh/assets/slider/Teupin.jpg",
             alt: "Local Village",
             title: "Island Life",
             location: "Kampung Nelayan",

@@ -33,7 +33,7 @@ const Hero = () => {
                     }}
                 >
                     <img 
-                        src="assets/ilalang-4.png"
+                        src="/canden-breueh/assets/ilalang-4.png"
                         alt="Breueh Island Aerial View"
                         className="w-full h-full object-cover object-center"
                     />
