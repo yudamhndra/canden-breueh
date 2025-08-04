@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -74,24 +75,30 @@ const Hero = () => {
 
                     {/* Action Buttons - Animasi hover sederhana */}
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8 xl:gap-3 items-center xl:items-start">
-                        <a 
-                            href="#about"
-                            className="group relative inline-flex items-center justify-center px-8 sm:px-10 lg:px-12 xl:px-4 py-4 sm:py-5 lg:py-6 xl:py-2 text-lg sm:text-xl lg:text-2xl xl:text-sm font-bold text-white bg-gradient-to-r from-teal-600 to-teal-700 rounded-full shadow-2xl hover:from-teal-700 hover:to-teal-800 transition-colors duration-300 backdrop-blur-sm border border-white/20"
+                        <ScrollLink
+                            to="introduction"
+                            smooth={true}
+                            duration={500}
+                            offset={-80}
+                            className="group relative inline-flex items-center justify-center px-8 sm:px-10 lg:px-12 xl:px-4 py-4 sm:py-5 lg:py-6 xl:py-2 text-lg sm:text-xl lg:text-2xl xl:text-sm font-bold text-white bg-gradient-to-r from-teal-600 to-teal-700 rounded-full shadow-2xl hover:from-teal-700 hover:to-teal-800 transition-colors duration-300 backdrop-blur-sm border border-white/20 cursor-pointer"
                         >
                             <span className="mr-2 sm:mr-3 xl:mr-1.5 text-xl sm:text-2xl xl:text-sm">🌊</span>
                             Explore Paradise
                             <svg className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 xl:w-3 xl:h-3 ml-2 sm:ml-3 xl:ml-1.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
-                        </a>
+                        </ScrollLink>
 
-                        <a 
-                            href="#activities"
-                            className="group inline-flex items-center justify-center px-8 sm:px-10 lg:px-12 xl:px-4 py-4 sm:py-5 lg:py-6 xl:py-2 text-lg sm:text-xl lg:text-2xl xl:text-sm font-semibold text-white bg-white/10 backdrop-blur-sm rounded-full border-2 border-white/30 hover:bg-white/20 transition-colors duration-300 shadow-xl"
+                        <ScrollLink
+                            to="sliderPanel"
+                            smooth={true}
+                            duration={500}
+                            offset={-80}
+                            className="group inline-flex items-center justify-center px-8 sm:px-10 lg:px-12 xl:px-4 py-4 sm:py-5 lg:py-6 xl:py-2 text-lg sm:text-xl lg:text-2xl xl:text-sm font-semibold text-white bg-white/10 backdrop-blur-sm rounded-full border-2 border-white/30 hover:bg-white/20 transition-colors duration-300 shadow-xl cursor-pointer"
                         >
                             <span className="mr-2 sm:mr-3 xl:mr-1.5 text-xl sm:text-2xl xl:text-sm">📸</span>
                             View Gallery
-                        </a>
+                        </ScrollLink>
                     </div>
                 </div>
             </div>

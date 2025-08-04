@@ -289,7 +289,7 @@ const AboutSection = () => {
                 {/* Section Header */}
                 <div className="text-center mb-8 sm:mb-10 lg:mb-12 xl:mb-14 2xl:mb-16">
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl font-bold text-slate-800 mb-3 sm:mb-4 lg:mb-6">
-                        About Breueh Island
+                        Get to Know Breueh Island
                     </h2>
                     <p className="text-sm sm:text-base lg:text-lg xl:text-lg 2xl:text-xl text-slate-600 max-w-2xl xl:max-w-3xl 2xl:max-w-4xl mx-auto">
                         Discover the story, heritage, and natural wonders of one of Indonesia's most pristine island destinations
@@ -303,7 +303,7 @@ const AboutSection = () => {
                     <div className="relative order-2 lg:order-1">
                         <div className="relative h-[500px] sm:h-[580px] lg:h-[600px] xl:h-[650px] rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src="assets/williams-torrent.png"
+                                src="/assets/williams-torrent.png"
                                 alt="Breueh Island Overview"
                                 className="w-full h-full object-cover"
                             />
