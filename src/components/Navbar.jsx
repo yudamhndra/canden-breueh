@@ -7,7 +7,8 @@ const navItems = [
     { name: 'Home', href: '/', isHome: true },
     { name: 'Potential Map', href: '/potential-map' },
     { name: 'Story Map', href: '/story-map' },
-    { name: 'local weather', href: '/local-weather'},
+    // { name: 'local weather', href: '/local-weather'},
+    { name: 'About', href: 'aboutSection', isScroll: true},
     { name: 'Contact', href: 'footer', isScroll: true },
 ];
 

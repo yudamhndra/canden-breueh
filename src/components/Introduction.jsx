@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Introduction() {
-    // Responsive slider settings: show dots, no arrows, swipe enabled
     const sliderSettings = {
         dots: true,
         arrows: false,
@@ -19,8 +18,12 @@ function Introduction() {
     };
 
     return (
-        <section className="bg-[#F76E20] py-10 md:py-16 lg:py-20 flex justify-center overflow-hidden">
-            <div className="w-full max-w-4xl px-4 sm:px-6 lg:px-8 flex justify-center">
+        // Ganti className section dengan:
+    <section className="bg-gradient-to-br from-slate-600 via-gray-700 to-slate-800 py-10 md:py-16 lg:py-20 flex justify-center overflow-hidden relative">
+        {/* Teal accent overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-500/20 via-transparent to-blue-500/20"></div>
+            
+            <div className="w-full max-w-4xl px-4 sm:px-6 lg:px-8 flex justify-center relative z-10">
                 <motion.div
                     variants={SlideUp(0.5)}
                     initial="hidden"
@@ -32,7 +35,7 @@ function Introduction() {
                         {materials.intro.map((paragraph, index) => (
                             <p
                                 key={index}
-                                className="text-white text-base sm:text-lg md:text-xl lg:text-xl !mt-6 sm:!mt-8 text-center"
+                                className="text-white text-base sm:text-lg md:text-xl lg:text-xl !mt-6 sm:!mt-8 text-center drop-shadow-lg"
                                 style={{ whiteSpace: 'pre-line' }}
                             >
                                 {paragraph}
@@ -44,7 +47,7 @@ function Introduction() {
                             {materials.intro.map((paragraph, index) => (
                                 <div key={index}>
                                     <p
-                                        className="text-white text-sm !mt-6 text-center px-2"
+                                        className="text-white text-sm !mt-6 text-center px-2 drop-shadow-lg"
                                         style={{ whiteSpace: 'pre-line' }}
                                     >
                                         {paragraph}

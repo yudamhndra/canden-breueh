@@ -110,7 +110,6 @@ const AboutSection = () => {
         }
     ];
 
-    // Color schemes based on logo
     const colorSchemes = {
         teal: {
             bg: 'bg-teal-50',

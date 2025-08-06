@@ -64,7 +64,7 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="/story-map" element={<StoryMapPage />} />
         <Route path="/potential-map" element={<PotentialMapPage />} />
-        <Route path="/local-weather" element={<LocalWeatherPage />} />
+        {/* <Route path="/local-weather" element={<LocalWeatherPage />} /> */}
       </Routes>
     </Router>
   );
