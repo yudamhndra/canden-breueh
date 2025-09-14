@@ -431,16 +431,14 @@ const AboutSection = () => {
                         Experience the perfect blend of adventure, culture, and natural beauty.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-md mx-auto">
-                        {/* <!-- Ganti 6281234567890 dengan nomor WhatsApp Anda, dalam format internasional tanpa + --> */}
                         <a
-                            href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20paket%20wisata%20Pulau%20Breueh%20dari%20candenbreueh.com.%20Mohon%20info%20ketersediaan%2C%20harga%2C%20dan%20itinerary.%0AMohon%20rekomendasi%20paket%20dan%20estimasi%20biaya.%20Terima%20kasih!"
+                            href="https://wa.me/6282272237742?text=Halo%2C%20saya%20tertarik%20dengan%20paket%20wisata%20Pulau%20Breueh%20dari%20candenbreueh.com.%20Mohon%20info%20ketersediaan%2C%20harga%2C%20dan%20itinerary.%0AMohon%20rekomendasi%20paket%20dan%20estimasi%20biaya.%20Terima%20kasih!"
                             target="_blank"
                             rel="noopener"
                             class="flex-1 inline-flex items-center justify-center bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
                             >
                             Plan Your Visit
                         </a>
-                        {/* <!-- Ganti path gambar di bawah dengan lokasi file gambar paket wisata Anda --> */}
                         <a
                             href="/assets/Package/Paket Wisata Pulau Breueh_5D4N.png"
                             download
