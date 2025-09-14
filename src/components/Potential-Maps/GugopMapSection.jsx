@@ -10,7 +10,7 @@ const GugopMapSection = () => {
     title: 'Peta Klasifikasi Penggunaan Lahan Desa Gugop',
     subtitle: 'Kecamatan Pulo Aceh, Kabupaten Aceh Besar',
     path: mapPaths.gugop.landUse,
-    scale: '1:25,000 pada ukuran A3',
+    scale: '1:25.000 pada ukuran A3',
     legend: [
       { color: 'bg-green-600', label: 'Kebun Campuran', description: 'Mixed garden/plantation areas' },
       { color: 'bg-yellow-400', label: 'Semak Belukar', description: 'Shrubland and bushes' },
@@ -172,7 +172,7 @@ const GugopMapSection = () => {
             {/* Legend & Info */}
             {mapStatus.exists && imageLoaded && (
               <div className="bg-gray-50 border-t border-gray-200">
-                <div className="p-4 border-b border-gray-200">
+                {/* <div className="p-4 border-b border-gray-200">
                   <h4 className="font-semibold mb-3 text-gray-800">KLASIFIKASI PENGGUNAAN LAHAN:</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
                     {gugopMap.legend.map((item, index) => (
@@ -191,7 +191,7 @@ const GugopMapSection = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 <div className="p-4">
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-xs text-gray-600">
@@ -199,7 +199,7 @@ const GugopMapSection = () => {
                       <h4 className="font-semibold mb-2 text-gray-800">SUMBER PETA:</h4>
                       <div className="space-y-1">
                         <div>• SAS Planet</div>
-                        <div>• Peta RBI 1:25,000</div>
+                        <div>• Peta RBI 1:25.000</div>
                         <div>• Administrasi Desa Indonesia</div>
                         <div>• Field Survey 2025</div>
                       </div>
@@ -214,10 +214,10 @@ const GugopMapSection = () => {
                       </div>
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2 text-gray-800">DIBUAT OLEH:</h4>
+                      <h4 className="font-semibold mb-2 text-gray-800">PUBLISHED BY:</h4>
                       <div className="space-y-1">
-                        <div>Regita Azalia Nur Fadhila</div>
-                        <div>22/505989/PTK/18200</div>
+                        {/* <div>Regita Azalia Nur Fadhila</div>
+                        <div>22/505989/PTK/18200</div> */}
                         <div className="font-medium mt-2">Program Studi Ilmu Tanah</div>
                         <div>Departemen Tanah</div>
                         <div>Fakultas Pertanian</div>

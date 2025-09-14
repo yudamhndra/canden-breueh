@@ -16,10 +16,10 @@ export const mapPaths = {
   
   // Gampong Paloh - Multiple Maps
   paloh: {
-    lampu: '/images/maps/paloh/peta-persebaran-lampu-paloh.jpg',
-    air: '/images/maps/paloh/peta-persebaran-sumber-air-paloh.jpg',
-    tutupanLahan: '/images/maps/paloh/peta-tutupan-lahan-paloh.jpg',
-    evakuasi: '/images/maps/paloh/peta-jalur-evakuasi-paloh.jpg',
+    lampu: '/assets/maps/Pemetaan Lampu - Paloh.png',
+    air: '/assets/maps/Pemetaan Air Bersih - Paloh.png',
+    tutupanLahan: '/assets/maps/PETA TUTUPAN LAHAN - Paloh.png',
+    evakuasi: '/assets/maps/Jalur Evakuasi Layout - Paloh.png',
     model3d: '/images/maps/paloh/peta-model-3d-paloh.jpg'
   }
 };

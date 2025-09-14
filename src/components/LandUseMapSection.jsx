@@ -10,7 +10,7 @@ const LandUseSection = () => {
     subtitle: 'Desa Gugop',
     location: 'Kecamatan Pulo Aceh, Kabupaten Aceh Besar',
     path: '/assets/maps/Klasifikasi Penggunaan Lahan.jpg',
-    scale: '1:25,000 pada ukuran A3',
+    scale: '1:25.000 pada ukuran A3',
     legend: [
       { color: 'bg-green-600', label: 'Kebun Campuran', description: 'Mixed garden/plantation areas' },
       { color: 'bg-yellow-400', label: 'Semak Belukar', description: 'Shrubland and bushes' },
@@ -241,7 +241,7 @@ const LandUseSection = () => {
                       <h4 className="font-semibold mb-2 text-gray-800">SUMBER PETA:</h4>
                       <div className="space-y-1">
                         <div>• SAS Planet</div>
-                        <div>• Peta RBI 1:25,000</div>
+                        <div>• Peta RBI 1:25.000</div>
                         <div>• Administrasi Desa Indonesia</div>
                         <div>• Field Survey 2025</div>
                       </div>
@@ -255,7 +255,7 @@ const LandUseSection = () => {
                         <div>Scale: {landUseMap.scale}</div>
                       </div>
                     </div>
-                    <div>
+                    {/* <div>
                       <h4 className="font-semibold mb-2 text-gray-800">DIBUAT OLEH:</h4>
                       <div className="space-y-1">
                         <div>Regita Azalia Nur Fadhila</div>
@@ -266,7 +266,7 @@ const LandUseSection = () => {
                         <div>Universitas Gadjah Mada</div>
                         <div className="font-medium">2025</div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 

@@ -13,7 +13,7 @@ const EconomicPotentialSection = () => {
       subtitle: 'Desa Blang Situngkoh',
       path: '/assets/maps/Peta Persebaran Pertanian.jpg',
       description: 'Peta persebaran pertanian di Desa Blang Situngkoh, Kecamatan Pulo Aceh, Kabupaten Aceh Besar',
-      scale: '1:5,000 pada ukuran A2',
+      scale: '1:5.000 pada ukuran A2',
       legend: [
         { color: 'bg-green-600', label: 'Batas Desa', type: 'line' },
         { color: 'bg-gray-600', label: 'Batas Dusun', type: 'line' },
@@ -31,7 +31,7 @@ const EconomicPotentialSection = () => {
       subtitle: 'Pulau Breueh',
       path: '/assets/maps/Peta Zona Perikanan.jpg', 
       description: 'Peta zona perikanan Pulau Breueh, Kecamatan Pulo Aceh, Kabupaten Aceh Besar',
-      scale: '1:50,000 pada ukuran A2',
+      scale: '1:50.000 pada ukuran A2',
       legend: [
         { color: 'bg-gray-600', label: 'Batas Administrasi', type: 'line' },
         { color: 'bg-blue-600', label: 'Batas Desa', type: 'line' },

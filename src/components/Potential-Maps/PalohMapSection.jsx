@@ -14,7 +14,7 @@ const PalohMapSection = () => {
       subtitle: 'Gampong Paloh',
       path: mapPaths.paloh.lampu,
       description: 'Pemetaan distribusi dan coverage penerangan jalan di Gampong Paloh',
-      scale: '1:5,000 pada ukuran A2',
+      scale: '1:3.000 pada ukuran A2',
       icon: '💡',
       theme: 'from-yellow-600 to-amber-600',
       bgTheme: 'from-yellow-50 to-amber-50',
@@ -34,7 +34,7 @@ const PalohMapSection = () => {
       subtitle: 'Gampong Paloh',
       path: mapPaths.paloh.air,
       description: 'Pemetaan sumber air bersih dan sistem distribusi air di Gampong Paloh',
-      scale: '1:5,000 pada ukuran A2',
+      scale: '1:3.000 pada ukuran A2',
       icon: '💧',
       theme: 'from-cyan-600 to-blue-600',
       bgTheme: 'from-cyan-50 to-blue-50',
@@ -54,7 +54,7 @@ const PalohMapSection = () => {
       subtitle: 'Gampong Paloh',
       path: mapPaths.paloh.tutupanLahan,
       description: 'Klasifikasi tutupan lahan dan penggunaan lahan di Gampong Paloh',
-      scale: '1:10,000 pada ukuran A2',
+      scale: '1:6.000 pada ukuran A2',
       icon: '🌍',
       theme: 'from-green-600 to-emerald-600',
       bgTheme: 'from-green-50 to-emerald-50',
@@ -74,7 +74,7 @@ const PalohMapSection = () => {
       subtitle: 'Gampong Paloh',
       path: mapPaths.paloh.evakuasi,
       description: 'Pemetaan jalur evakuasi dan titik kumpul untuk bencana di Gampong Paloh',
-      scale: '1:5,000 pada ukuran A2',
+      scale: '1:4.000 pada ukuran A2',
       icon: '🚨',
       theme: 'from-red-600 to-orange-600',
       bgTheme: 'from-red-50 to-orange-50',
@@ -361,7 +361,7 @@ const PalohMapSection = () => {
             {currentMapStatus.exists && imageLoaded[currentMapData.id] && (
               <div className="bg-gray-50 border-t border-gray-200">
                 {/* Legend */}
-                <div className="p-4 border-b border-gray-200">
+                {/* <div className="p-4 border-b border-gray-200">
                   <h4 className="font-semibold mb-3 text-gray-800">KETERANGAN (LEGEND):</h4>
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {currentMapData.legend.map((item, index) => (
@@ -378,8 +378,8 @@ const PalohMapSection = () => {
                         <span className="text-xs text-gray-700">{item.label}</span>
                       </div>
                     ))}
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
 
                 {/* Technical Info */}
                 <div className="p-4">
@@ -387,10 +387,19 @@ const PalohMapSection = () => {
                     <div>
                       <h4 className="font-semibold mb-2 text-gray-800">DATA SOURCE:</h4>
                       <div className="space-y-1">
-                        <div>• Field Survey 2025</div>
-                        <div>• Drone Mapping 2024</div>
-                        <div>• Satellite Imagery</div>
-                        <div>• Village Government Data</div>
+                        <div>• Data Survey Persebaran Lampu</div>
+                        <div>• Data Survey Persebaran Sumur</div>
+                        <div>• Data Batas Administrasi Desa - InaGeoportal</div>
+                        <div>• Data Basemap Google Satelit</div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-2 text-gray-800"></h4>
+                      <div className="space-y-1">
+                        <div>• Data Digitasi Tutupan Lahan Berdasarkan Interpretasi Citra</div>
+                        <div>• Data Survey Lapangan Tutupan Lahan</div>
+                        <div>• Data Digital Elevation Model - Demnas</div>
+                        <div>• Data Basemap Google Satelit</div>
                       </div>
                     </div>
                     <div>
@@ -407,7 +416,7 @@ const PalohMapSection = () => {
                       <div className="space-y-1">
                         <div>Program Studi Teknik Geodesi</div>
                         <div>Departemen Teknik Geodesi</div>
-                        <div>Fakultas Pertanian</div>
+                        <div>Fakultas Teknik</div>
                         <div>Universitas Gadjah Mada</div>
                         <div className="font-medium">2025</div>
                       </div>

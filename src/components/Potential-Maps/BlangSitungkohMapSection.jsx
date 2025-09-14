@@ -10,7 +10,7 @@ const BlangSitungkohMapSection = () => {
     title: 'Peta Persebaran Pertanian Desa Blang Situngkoh',
     subtitle: 'Kecamatan Pulo Aceh, Kabupaten Aceh Besar',
     path: mapPaths.blangSitungkoh.agriculture,
-    scale: '1:5,000 pada ukuran A2',
+    scale: '1:5.000 pada ukuran A2',
     legend: [
       { color: 'bg-green-600', label: 'Batas Desa', type: 'line' },
       { color: 'bg-gray-600', label: 'Batas Dusun', type: 'line' },
@@ -214,7 +214,7 @@ const BlangSitungkohMapSection = () => {
                       <div className="space-y-1">
                         <div>Program Studi Teknik Geodesi</div>
                         <div>Departemen Teknik Geodesi</div>
-                        <div>Fakultas Pertanian</div>
+                        <div>Fakultas Teknik</div>
                         <div>Universitas Gadjah Mada</div>
                         <div className="font-medium">2025</div>
                       </div>

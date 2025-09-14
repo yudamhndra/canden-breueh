@@ -16,7 +16,7 @@ const SliderPanel = () => {
             src: "/assets/ilalang.jpg", 
             alt: "Tropical Forest",
             title: "Lush Green Paradise",
-            location: "Hutan Tropis Breueh",
+            location: "Ilalang Pasi",
             description: "Dense tropical rainforest with exotic flora and fauna. Discover rare species and breathtaking biodiversity.",
             category: "Nature"
         },
@@ -29,17 +29,17 @@ const SliderPanel = () => {
             description: "Breathtaking sunset views that paint the sky in vibrant colors. Perfect romantic spot for couples.",
             category: "Scenery"
         },
+        // {
+        //     id: 4,
+        //     src: "/assets/ilalang.jpg",
+        //     alt: "Coral Reef",
+        //     title: "Underwater Wonder",
+        //     location: "Terumbu Karang Breueh",
+        //     description: "Vibrant coral reefs teeming with marine life. Best diving and snorkeling spot in the region.",
+        //     category: "Marine"
+        // },
         {
             id: 4,
-            src: "/assets/ilalang.jpg",
-            alt: "Coral Reef",
-            title: "Underwater Wonder",
-            location: "Terumbu Karang Breueh",
-            description: "Vibrant coral reefs teeming with marine life. Best diving and snorkeling spot in the region.",
-            category: "Marine"
-        },
-        {
-            id: 5,
             src: "/assets/slider/Teupin.jpg",
             alt: "Local Village",
             title: "Island Life",

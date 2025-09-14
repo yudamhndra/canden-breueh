@@ -10,7 +10,7 @@ const BreuehIslandMapSection = () => {
     title: 'Peta Zona Perikanan Pulau Breueh',
     subtitle: 'Kecamatan Pulo Aceh, Kabupaten Aceh Besar',
     path: mapPaths.breueh.fisheries,
-    scale: '1:50,000 pada ukuran A2',
+    scale: '1:50.000 pada ukuran A2',
     legend: [
       { color: 'bg-gray-600', label: 'Batas Administrasi', type: 'line' },
       { color: 'bg-blue-600', label: 'Batas Desa', type: 'line' },
@@ -184,7 +184,7 @@ const BreuehIslandMapSection = () => {
             {/* Legend & Info Footer - Only show when map exists and loaded */}
             {mapStatus.exists && imageLoaded && (
               <div className="bg-gray-50 border-t border-gray-200">
-                <div className="p-4 border-b border-gray-200">
+                {/* <div className="p-4 border-b border-gray-200">
                   <h4 className="font-semibold mb-3 text-gray-800">ZONA PERIKANAN (FISHERIES ZONES):</h4>
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     {breuehMap.legend.map((item, index) => (
@@ -202,7 +202,7 @@ const BreuehIslandMapSection = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 <div className="p-4">
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-xs text-gray-600">
